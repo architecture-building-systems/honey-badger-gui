@@ -11,7 +11,8 @@ Harder version:
 - install Anaconda / Miniconda
 - `conda env create -f environment.yml`
 - `conda activate honey-badger-gui`
-- `pyinstaller honey-badger-gui.spec`
+- `pyinstaller -w --noconsol --onefile honey-badger-gui.py`
+- the resulting `honey-badger-gui.exe` can be found in the `dist` subfolder
 
 ## Usage
 
